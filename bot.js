@@ -12,11 +12,11 @@ client.on('ready', () => {
 
  
 
-client.on('message', message => {
+client.on('message' message => {
 
-    if (message.content === 'ping') {
+    if (message.content === 'Hi') {
 
-       message.reply('pong');
+       message.reply('Hello!');
 
        }
 
